@@ -1,0 +1,13 @@
+default:
+  extensions:
+ #   Behat\Symfony2Extension\Extension:
+  #      kernel:
+   #         env: test
+    #        debug: true
+     #       path: "vendor/behat/symfony2-extension/testapp/app/AppKernel.php"
+
+    Behat\MinkExtension\Extension:
+      goutte:    ~
+      selenium2: ~
+      base_url: https://en.wikipedia.org
+
